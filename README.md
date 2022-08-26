@@ -1,4 +1,4 @@
-pets project. imitation social network
+pets project. imitation social network. written on Material UI
 
 
 
