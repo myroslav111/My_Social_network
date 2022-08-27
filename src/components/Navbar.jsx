@@ -26,6 +26,7 @@ const Search = styled('div')(({ theme }) => ({
   padding: '0 10px',
   borderRadius: theme.shape.borderRadius,
   width: '40%',
+  // color: 'black',
 }));
 
 const Icons = styled(Box)(({ theme }) => ({
@@ -58,7 +59,7 @@ export const Navbar = () => {
         </Typography>
         <Pets sx={{ display: { xs: 'block', sm: 'none' } }} />
         <Search>
-          <InputBase placeholder="search..." />
+          <InputBase sx={{ color: 'black' }} placeholder="search..." />
         </Search>
         <Icons>
           <Badge badgeContent={4} color="error">

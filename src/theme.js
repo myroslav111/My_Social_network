@@ -12,5 +12,8 @@ export const theme = createTheme({
     otherColor: {
       main: '#999',
     },
+    neutral: {
+      main: 'black',
+    },
   },
 });
